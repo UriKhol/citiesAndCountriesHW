@@ -10,8 +10,8 @@ const citiesAndCountries = {
 
 const result = []
 
-for(let citi in citiesAndCountries) {
-    result.push(`${citi} - это ${citiesAndCountries[citi]}`)
+for(let city in citiesAndCountries) {
+    result.push(`${city} - это ${citiesAndCountries[city]}`)
 }
 
 console.log(result)
